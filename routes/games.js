@@ -3,6 +3,7 @@ const express = require("express");
 const router = express.Router();
 
 const Game = require("../Models/Game");
+const User = require("../Models/User");
 
 router.post("/review/add", async (req, res) => {
   // console.log(req.fields);
